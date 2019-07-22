@@ -18,8 +18,7 @@ public class HelloWorldAction {
   private KafkaSender kafkaSender;
 
   @GetMapping("/msg/{msg}")
-  public String SendMsg(@PathVariable("msg") String msg,
-      @PathVariable("topic") String topic){
+  public String SendMsg(@PathVariable("msg") String msg){
     kafkaSender.send(msg);
     return "OK";
   }

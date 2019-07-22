@@ -1,1 +1,1 @@
-- http://localhost:12001/topic/hello/msg/world
+http://localhost:12001/producer/msg/helloworld
