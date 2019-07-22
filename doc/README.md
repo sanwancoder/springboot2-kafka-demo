@@ -1,0 +1,1 @@
+- http://localhost:12001/topic/hello/msg/world
